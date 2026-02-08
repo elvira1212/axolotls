@@ -47,7 +47,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .grid-container {
+  .axolotl-container {
     grid-template-columns: 1fr 1fr;
   }
   img {
