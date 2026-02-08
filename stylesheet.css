@@ -34,3 +34,8 @@ body {
   background-color: #fb882d;
   padding: 10px;
 }
+
+img {
+  max-width: 75%;
+  height: auto;
+}
