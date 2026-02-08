@@ -43,7 +43,7 @@ img {
 }
 
 a:hover {
-  color: lightgreen;
+  color: #44c2bf;
 }
 
 @media (max-width: 600px) {
