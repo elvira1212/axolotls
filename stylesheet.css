@@ -46,7 +46,7 @@ a:hover {
   color: #44c2bf;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
