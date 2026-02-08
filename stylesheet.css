@@ -7,5 +7,6 @@
 
 .axolotl {
   border: 5px solid black;
+  aspect-ratio: 1;
   text-align: center;
 }
