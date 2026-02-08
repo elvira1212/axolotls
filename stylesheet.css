@@ -35,11 +35,10 @@ body {
   padding: 20px;
 }
 
-img {
+.axolotl img {
   max-width: 75%;
   max-height: 75%;
-  width: auto;
-  height: auto;
+  object-fit: contain
 }
 
 a:hover {
@@ -53,7 +52,7 @@ a:hover {
     column-gap: 10px;
     row-gap: 10px;
   }
-  img {
+  .axolotl img {
     max-height: 50%;
   }
 }
