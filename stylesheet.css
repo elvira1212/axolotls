@@ -37,7 +37,7 @@ body {
 
 img {
   max-width: 75%;
-  max-height: 50%;
+  max-height: 75%;
   width: auto;
   height: auto;
 }
@@ -45,5 +45,8 @@ img {
 @media screen and (max-width: 480px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
+  }
+  img {
+    max-height: 50%;
   }
 }
