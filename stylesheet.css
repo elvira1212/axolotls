@@ -9,4 +9,21 @@
   border: 5px solid black;
   aspect-ratio: 1;
   text-align: center;
+  background-color: #44c2bf;
+}
+
+body {
+  background-color: #b40e50;
+}
+
+#types {
+  background-color: #fe3300;
+}
+
+#info {
+  background-color: #fc4b55;
+}
+
+#fun {
+  background-color: #fb882d;
 }
