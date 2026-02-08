@@ -40,6 +40,7 @@ img {
   max-height: 75%;
   width: auto;
   height: auto;
+  display: block;
 }
 
 a:hover {
