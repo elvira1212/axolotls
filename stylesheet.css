@@ -36,8 +36,8 @@ body {
 }
 
 .axolotl img {
-  max-width: 75%;
-  max-height: 75%;
+  width: 75%;
+  height: 75%;
   object-fit: contain
 }
 
@@ -48,11 +48,10 @@ a:hover {
 @media screen and (max-width: 600px) {
   .axolotl-container {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-rows: repeat(5, minmax(0, 1fr))
     column-gap: 10px;
     row-gap: 10px;
   }
   .axolotl img {
-    max-height: 50%;
+    height: 50%;
   }
 }
