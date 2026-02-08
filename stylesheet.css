@@ -1,6 +1,7 @@
-#axolotl-container {
+.axolotl-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  column-gap: 10px;
 }
 
 .axolotl {
