@@ -41,10 +41,6 @@ body {
   object-fit: contain
 }
 
-.axolotl h2 {
-  white-space: nowrap;
-}
-
 a:hover {
   color: lightgreen;
 }
