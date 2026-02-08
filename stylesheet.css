@@ -40,7 +40,6 @@ img {
   max-height: 75%;
   width: auto;
   height: auto;
-  display: block;
 }
 
 a:hover {
@@ -49,7 +48,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .axolotl-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 10px;
     row-gap: 10px;
   }
