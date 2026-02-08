@@ -42,7 +42,9 @@ body {
 }
 
 .axolotl h2 {
-  display: inline;
+  width: 75%;
+  height: 10%;
+  object-fit: contain
 }
 
 a:hover {
@@ -57,5 +59,8 @@ a:hover {
   }
   .axolotl img {
     height: 50%;
+  }
+  .axolotl h2 {
+    height: 25%;
   }
 }
